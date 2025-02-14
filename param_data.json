@@ -2,6 +2,7 @@
 "path": "/home/context22/Context22/CT22_Faro-1/inputData/",
 "pathProcessed" :"/home/context22/Context22/CT22_Faro-1/Processed/",
 "indexToWriteIn" :"ct22faro-1_",
+"sqlite" :"../CT22_Common/sqlite/sqlitect22",
 "ESServer" : "http://localhost:9200",
 "ESUser" : "elastic",
 "ESPwd" : "6ycdFAhDBE2QbcRfPxQV"

@@ -2,9 +2,9 @@ import pandas as pd
 from pandas import read_csv
 import json
 from elasticsearch import Elasticsearch, helpers
-import sys
+# import sys
 import os
-import pdb
+# import pdb
 import glob
 from datetime import date
 
@@ -43,6 +43,7 @@ class BasicIngestion :
        DataFiles=[]
        # csvFiles=glob.glob(self.path + "*" + self.collector + "*FSQL*.csv")
        csvFiles=glob.glob(self.path + "*FSQL*.csv")
+       # breakpoint()
        for file in csvFiles:
            if "FSQL" in file:
               COLL = file.split('_')[1]
